@@ -1,0 +1,11 @@
+{
+  "name": "oem-model",
+  "version": "0.0.1",
+  "description": "Model definition",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "main": "src/index.ts"
+}

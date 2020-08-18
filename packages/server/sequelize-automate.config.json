@@ -1,0 +1,30 @@
+{
+  "dbOptions": {
+    "database": "postgres",
+    "username": "postgres",
+    "password": "secret",
+    "dialect": "postgres",
+    "host": "localhost",
+    "port": 5432,
+    "logging": false,
+    "define": {
+      "underscored": false,
+      "createdAt": "createdAt",  
+      "updatedAt": "updatedAt", 
+      "freezeTableName": true,
+      "charset": "utf8mb4",
+      "timezone": "+08:00",
+      "dialectOptions": {
+        "collate": "utf8_general_ci"
+      },
+      "timestamps": true
+    }
+  },
+  "options": {
+    "type": "ts",
+    "dir": "./src/models",
+    "typesDir": "./src/model_types",
+    "emptyDir": true,
+    "tsNoCheck": true
+  }
+}

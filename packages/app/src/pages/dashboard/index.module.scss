@@ -1,0 +1,17 @@
+
+.container {
+  flex-grow: 1;
+  background-color: #eee;
+  overflow: auto;
+  display: flex;
+  margin: 24px 0 0 24px;
+}
+
+.content {
+  flex-grow: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+

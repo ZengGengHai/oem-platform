@@ -1,0 +1,10 @@
+**/node_modules
+**/README.md
+.dockerignore
+**/.git
+**/.gitignore
+**/build
+/packages/server/build
+/packages/server/dist
+
+
